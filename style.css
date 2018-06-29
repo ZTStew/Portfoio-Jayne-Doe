@@ -1,0 +1,201 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+#Background{
+	background-color: #4e3a43;
+	height: 1170px;
+	width: 1000px;
+
+}
+
+/*Start Of designs*/
+#TopBar{
+	display: flex;
+
+	background-color: snow;
+
+	height: 85px;
+	width: calc(100% - 50px);
+
+	padding-right: 25px;
+	padding-left: 25px;
+
+	justify-content: space-between;
+	align-items: center
+}
+#TopBar h1{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+}
+#TopBar h3{
+	font-weight: bold;
+}
+/*End Of Top Bar*/
+/**/
+/*Start Of Upper Section*/
+#UpperSite{
+	height: 270px;
+	width: 100%;
+
+	padding: 25px;
+	margin-bottom: 1px;
+}
+#ImageShadow{
+	display: inline-block;
+	background-color: snow;
+	height: 250px;
+	width: 380px;
+
+	padding: 10px;
+}
+#ProfilePic{
+	height: 100%;
+	width: 100%;
+}
+#AboutTab{
+	display: inline-block;
+	vertical-align: top;
+
+	background-color: snow;
+
+	height: 270px;
+	width: 520px;
+
+	margin-left: 25px;
+}
+#AboutTab h2{
+	background-color: #888694;
+	color: white;
+	font-size: 20px;
+
+	height: 40px;
+	width: calc(100% - 10px);
+
+	padding-left: 10px;
+}
+#Spacer{
+	margin-left: 6px;
+	margin-bottom: 10px;
+}
+#continue{
+	text-decoration: underline;
+	margin-left: 6px;
+}
+/*End Of Upper Section*/
+/**/
+/*Start Of Lower Section*/
+#LowerSite{
+	height: 600px;
+	width: calc(100% - 50px);
+
+	padding: 25px;
+}
+#ColumnContainer{
+	height: 800px;
+	width: 100%;
+}
+.InfoColumn{
+	display: inline-block;
+	vertical-align: top;
+	background-color: lightgrey;
+	height: 630px;
+	width: 30%;
+
+	margin-right: 43px;
+	margin-bottom: 25px;
+}
+#FarColumn{
+	margin-right: 0px;
+}
+.ColumnTitle{
+	background-color: #8c8a97;
+	color: #fbfff6;
+
+	height: 40px;
+	width: calc(100% - 17px);
+
+	padding-left: 17px;
+	padding-top: 10px;
+}
+.ColumnTitle h2{
+	font-size: 20px;
+}
+.Pic2{
+	height: 150px;
+	width: 100%;
+}
+.TextBox{
+	height: 210px;
+	width: calc(100% - 20px);
+
+	padding: 10px;
+}
+.TechnologiesTitle{
+	background-color: #8c8a97;
+	color: #fbfff6;
+
+	height: 40px;
+	width: calc(100% - 17px);
+
+	padding-left: 17px;
+	padding-top: 10px;
+
+	font-size: 13px;
+}
+.IconContainer{
+	height: 100px;
+	width: 100%;
+}
+
+.Icons{
+	height: 40px;
+	width: 40px;
+	margin-left: 8px;
+	margin-right: 5px;
+}
+
+button{
+	background-color: #407d61;
+
+	height: 28px;
+	width: 125px;
+	padding: 2px;
+	border-radius: 10px;
+
+	margin-left: 77px;
+
+	color: #fbfff6;
+	font-weight: bold;
+}
+/*End Of Lower Section*/
+/**/
+/*Start Of Contact Section*/
+#BottomBar{
+	background-color: snow;
+
+	height: 85px;
+	width: calc(100% - 50px);
+
+	margin-top: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+#email{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+
+}
+#SubDiv{
+	display: inline-block;
+	text-decoration: underline;
+	width: 100%;
+	text-align: center;
+}
+.SocialIcons{
+	height: 15px;
+	width: 15px;
+}
